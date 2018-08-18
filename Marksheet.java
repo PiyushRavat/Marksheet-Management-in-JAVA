@@ -1,11 +1,18 @@
 import java.util.Scanner;
+
+
 class P2{
 	public static void main(String[] args) {
-
+		
+		System.out.println("How many student create marksheet :");
+		Scanner scan = new Scanner(System.in);
+		int studsize = scan.nextInt();
+		int []student = new int[studsize];
+		
 		System.out.println("Enter How many Subject ....");
-		Scanner scan=new Scanner(System.in);
 		int asize = scan.nextInt();
 		int []marks= new int[asize];
+		
 		System.out.println("Enter "+asize+" Subject marks");
 
 		for (int i=0;i<marks.length;i++) {
@@ -20,3 +27,4 @@ class P2{
 
 	}
 }
+
