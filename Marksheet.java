@@ -9,6 +9,10 @@ class P2{
 		int studsize = scan.nextInt();
 		int []student = new int[studsize];
 		
+		System.out.println("Enter "+studsize+" Student name : ");
+		//string studname = scan.next();
+		string []name = new string[studsize];
+		
 		System.out.println("Enter How many Subject ....");
 		int asize = scan.nextInt();
 		int []marks= new int[asize];
