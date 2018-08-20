@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 class Student {
+	public int studinfo{
+		System.out.println("Enter How many student");
+		Scannner scan = new.nextInt();
+	}
 	
 }
 
