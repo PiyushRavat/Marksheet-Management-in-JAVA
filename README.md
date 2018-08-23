@@ -1,2 +1,2 @@
-# Marksheet-Management-in-JAVA
-This project is students marksheet management in Java programming language
+# Student-Marksheet-in-JAVA
+This project is students marksheet in Java programming language
